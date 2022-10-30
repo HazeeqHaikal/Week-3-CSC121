@@ -18,11 +18,11 @@ int main() {
     fives = money / 5;
     money %= 5;
 
-    cout << "Hundreds: " << hundreds << endl;
-    cout << "Fifties: " << fifties << endl;
-    cout << "Tens: " << tens << endl;
-    cout << "Fives: " << fives << endl;
-    cout << "Ones: " << money << endl;
+    cout << "RM100.00: " << hundreds << endl;
+    cout << "RM50.00: " << fifties << endl;
+    cout << "RM10.00: " << tens << endl;
+    cout << "RM5.00: " << fives << endl;
+    cout << "RM1.00: " << money << endl;
 
     return 0;
 }
